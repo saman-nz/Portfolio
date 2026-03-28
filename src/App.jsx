@@ -50,7 +50,7 @@ export default function App() {
         >
           <h1 className="text-7xl lg:text-9xl font-black leading-[0.8] mb-8 tracking-tighter">
             FULL STACK <br />
-            <span className="text-[#00f2ea]">DEVELOPER</span>
+            <span className="text-[#00f2ea]">DEVELOPE</span>
           </h1>
           
           <p className="max-w-2xl text-gray-400 text-lg mb-12 border-l-2 border-[#00f2ea]/20 pl-6">
