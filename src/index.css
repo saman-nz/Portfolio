@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  /* Increased opacity to 0.1 for visibility */
+  background-image: 
+    linear-gradient(rgba(0, 242, 234, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 242, 234, 0.1) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Optional: Add this to your main wrapper div in App.jsx to get the "glow" center */
+.glow-overlay {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 242, 234, 0.05) 0%, transparent 80%);
+  pointer-events: none;
+}
+/* Ensure no other containers are hiding the grid */
+#root, main {
+  background: transparent !important;
+}
